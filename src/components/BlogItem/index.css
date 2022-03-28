@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.blog-item {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 0.5px solid #9aa5b1;
+}
+.title-and-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+.blog-title {
+  color: #12022f;
+  font-size: 18px;
+}
+.published-date {
+  color: #9aa5b1;
+  font-size: 18px;
+}
+.description {
+  color: #9aa5b1;
+  font-size: 15px;
+}

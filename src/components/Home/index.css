@@ -1,0 +1,21 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.profile {
+  height: 120px;
+  width: 120px;
+}
+.profile-name {
+  color: #12022f;
+  font-size: 25px;
+  text-align: center;
+}
+.role {
+  color: #616e7c;
+  font-size: 20px;
+  text-align: center;
+}
